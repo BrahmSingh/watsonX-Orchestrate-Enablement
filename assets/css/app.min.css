@@ -64,6 +64,31 @@
 ol > a {
     color: #000 !important;
 }
+
+
+.md-typeset {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+.md-typeset__scrollwrap {
+    margin: 1em -.8rem;
+    overflow-x: auto;
+    touch-action: auto;
+}
+
+
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+
 body:not([data-sidebar-size=sm]) #vertical-menu-btn {
     margin-left: -52px;
     margin-right: 20px
