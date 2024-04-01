@@ -61,6 +61,9 @@
     display: none
 }
 
+ol > a {
+    color: #000 !important;
+}
 body:not([data-sidebar-size=sm]) #vertical-menu-btn {
     margin-left: -52px;
     margin-right: 20px
