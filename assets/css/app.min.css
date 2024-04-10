@@ -66,15 +66,19 @@ ol > a {
 }
 
 
-.md-typeset {
+body {
     -webkit-print-color-adjust: exact;
     color-adjust: exact;
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.6;
+    background-image: url(../images/wxO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .md-typeset__scrollwrap {
-    margin: 1em -.8rem;
+    margin: 1em -.9rem;
     overflow-x: auto;
     touch-action: auto;
 }
